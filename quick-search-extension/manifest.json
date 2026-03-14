@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Search",
+  "version": "1.0",
+  "description": "Instantly search selected text on Google using a keyboard shortcut (Alt+S). No clicks required.",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "search-selected-text": {
+      "suggested_key": {
+        "default": "Alt+S",
+        "mac": "Alt+S"
+      },
+      "description": "Search selected text on Google"
+    }
+  }
+}

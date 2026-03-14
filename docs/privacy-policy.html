@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Search – Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+      line-height: 1.7;
+    }
+    h1 { color: #4A90D9; }
+    h2 { margin-top: 2em; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy – Quick Search</h1>
+  <p><strong>Last updated: March 2026</strong></p>
+
+  <h2>Overview</h2>
+  <p>
+    Quick Search is a Chrome extension that lets you search selected text on Google
+    using the keyboard shortcut <strong>Alt+S</strong>. We are committed to protecting
+    your privacy. This policy describes what data the extension handles.
+  </p>
+
+  <h2>Data Collection</h2>
+  <p>
+    Quick Search does <strong>not</strong> collect, store, or transmit any personal data.
+    No analytics, no telemetry, no third-party tracking.
+  </p>
+
+  <h2>How the Extension Works</h2>
+  <p>
+    When you press Alt+S, the extension reads the text you have selected on the current
+    tab and opens a new tab with a Google search for that text
+    (<code>https://www.google.com/search?q=&lt;selected text&gt;</code>).
+    The selected text is passed directly to Google as part of the URL — the same
+    as typing it into the Google search bar yourself.
+    The extension does not send this text to any other server.
+  </p>
+
+  <h2>Permissions Explained</h2>
+  <ul>
+    <li>
+      <strong>activeTab</strong> – Required to read the text you have selected on the
+      current page when you press the keyboard shortcut.
+    </li>
+    <li>
+      <strong>scripting</strong> – Required to run a small script on the current tab
+      that retrieves the selected text.
+    </li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>
+    The extension opens Google Search (<a href="https://www.google.com">google.com</a>)
+    in a new tab. Your use of Google Search is subject to
+    <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+    Quick Search has no affiliation with Google.
+  </p>
+
+  <h2>Changes to This Policy</h2>
+  <p>
+    If this policy changes, the updated version will be published at this URL.
+    The "Last updated" date at the top will reflect the revision date.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    If you have any questions about this privacy policy, please open an issue on the
+    <a href="https://github.com/mac4/quick-search">GitHub repository</a>.
+  </p>
+</body>
+</html>

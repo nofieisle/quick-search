@@ -1,0 +1,13 @@
+{
+  "name": "quick-search-tools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "create-icons": "node scripts/create-icons.js",
+    "create-promo": "node scripts/create-promo.js",
+    "build": "bash scripts/build.sh"
+  },
+  "dependencies": {
+    "sharp": "^0.33.3"
+  }
+}
